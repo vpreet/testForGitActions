@@ -34,3 +34,6 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
+      # New vinod run
+      - name: awk run
+        run : awk 'BEGIN{printf "Sr No\tName\tSub\tMarks\n"} {print}' marks.txt
