@@ -36,4 +36,4 @@ jobs:
           echo test, and deploy your project.
       # New vinod run
       - name: awk run
-        run : awk 'BEGIN{printf "Sr No\tName\tSub\tMarks\n"} {print}' marks.txt
+        run : awk 'BEGIN{printf "Sr No\tName\tSub\tMarks\n"} {print}' $HOME/marks.txt
